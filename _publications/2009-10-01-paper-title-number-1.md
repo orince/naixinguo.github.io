@@ -1,14 +1,12 @@
 ---
-title: "Paper Title Number 1"
+title: "Can News Predict Firm Bankruptcy?"
 collection: publications
 category: manuscripts
 permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
+excerpt: 'We examine whether real-time business news predicts firm bankruptcy. Using full-text daily articles from the Dow Jones Newswires database, we generate firm-level predictors with ChatGPT and benchmark against FinBERT and dictionary-based models. ChatGPT-based variables outperform alternatives, with sentiment scores showing predictive power across horizons. Full-text news significantly enhance predictive accuracy over headlines. News-based measures add explanatory power beyond financial variables. Finally, we show that news captures timely information on macroeconomic conditions relevant to bankruptcy prediction, such as VIX, real GDP growth, and recession probability.'
+date: 21-Jul-2025
 venue: 'Journal 1'
-slidesurl: 'https://academicpages.github.io/files/slides1.pdf'
-paperurl: 'https://academicpages.github.io/files/paper1.pdf'
-bibtexurl: 'https://academicpages.github.io/files/bibtex1.bib'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+paperurl: 'https://www-sciencedirect-com.ezproxy.cityu.edu.hk/science/article/pii/S1386418125000424'
+citation: 'Siyu Bie, Guanhao Feng, Naixin Guo, Jingyu He. "Can News Predict Firm Bankruptcy?" - Journal of Financial Markets, (2025)'
 ---
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+We examine whether real-time business news predicts firm bankruptcy. Using full-text daily articles from the Dow Jones Newswires database, we generate firm-level predictors with ChatGPT and benchmark against FinBERT and dictionary-based models. ChatGPT-based variables outperform alternatives, with sentiment scores showing predictive power across horizons. Full-text news significantly enhance predictive accuracy over headlines. News-based measures add explanatory power beyond financial variables. Finally, we show that news captures timely information on macroeconomic conditions relevant to bankruptcy prediction, such as VIX, real GDP growth, and recession probability.
