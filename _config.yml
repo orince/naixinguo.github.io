@@ -237,7 +237,7 @@ collections:
     permalink: /:collection/:path/
 
 
-# These settings control how pages and collections are included in the site
+# These settings ontrol how pages and collections are included in the site
 defaults:
   # _posts
   - scope:
@@ -281,9 +281,11 @@ defaults:
       type: researchs
     values:
       layout: single
+      read_time: false
       author_profile: true
-      share: true
-      comments: true
+      share: false
+      comments: false
+      related: false
   # _portfolio
   - scope:
       path: ""
