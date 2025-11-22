@@ -6,7 +6,6 @@ title: "Research"
 permalink: /researchs/
 author_profile: true
 ---
-
 <divclass="wordwrap">You can also find my articles on <ahref="{{site.author.googlescholar}}">my Google Scholar profile`</a>`.`</div>`
 
 {% endif %}
