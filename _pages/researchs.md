@@ -1,53 +1,17 @@
-
-
 ---
 layout: archive
 title: "Research"
 permalink: /researchs/
 author_profile: true
 ---
-<divclass="wordwrap">You can also find my articles on <ahref="{{site.author.googlescholar}}">my Google Scholar profile`</a>`.`</div>`
+{% for category in site.publication_category %}
 
-{% endif %}
-
-{% include base_path %}
-
-<!-- New style rendering if publication categories are defined -->
-
-{% if site.publication_category %}
-
-  {% for category in site.publication_category  %}
-
-    {% assign title_shown = false %}
-
-    {% for post in site.researchs reversed %}
-
-    {% if post.category != category[0] %}
-
-    {% continue %}
-
-    {% endif %}
-
-    {% unless title_shown %}
-
-<h2>{{ category[1].title }}</h2><hr/>
-
-    {% assign title_shown = true %}
-
-    {% endunless %}
-
+<section class="publication-category">
+  <h2>{{ category[1].title }}</h2>
+  <hr />
+  {% assign posts = site.researchs | where: "category", category[0] | sort: "date" | reverse %}
+  {% for post in posts %}
     {% include archive-single.html %}
-
-    {% endfor %}
-
   {% endfor %}
-
-{% else %}
-
-  {% for post in site.researchs reversed %}
-
-    {% include archive-single.html %}
-
-  {% endfor %}
-
-{% endif %}
+</section>
+{% endfor %}
