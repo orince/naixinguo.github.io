@@ -1,13 +1,13 @@
 ---
 layout: archive
-title: "Research"
 permalink: /researchs/
 author_profile: true
+
 ---
 {% for category in site.publication_category %}
 
 <section class="publication-category">
-  <h2>{{ category[1].title }}</h2>
+  <h1>{{ category[1].title }}</h1>
   <hr />
   {% assign posts = site.researchs | where: "category", category[0] | sort: "date" | reverse %}
   {% for post in posts %}
@@ -15,3 +15,5 @@ author_profile: true
   {% endfor %}
 </section>
 {% endfor %}
+
+---

@@ -1,12 +1,23 @@
 ---
 layout: archive
-title: "CV"
+title: ""
 permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
 ---
+
+<div style="text-align: center;">
+  <div style="position: relative; display: inline-block;">
+    <img src="{{ base_path }}/images/life.jpg" alt="Life" width="350" height="350" style="display: block;" />
+  </div>
+  <div style="text-align: right; font-style: italic; color: #d3d3d3; font-size: 14px; margin-top: 5px;">
+  </div>
+</div>
+
 {% include base_path %}
+
+# CV
 
 Curriculum Vitae : [CV](../assets/CV_Resume.pdf)
 
