@@ -2,7 +2,7 @@
 title: "Cross-Market News Sentiment and Trading Volume"
 collection: research
 category: working_paper
-permalink: /publication/2010-10-01-paper-title-number-4
+permalink: /research/2025-10-01-paper-title-number-4
 #excerpt: ''
 # date: '20-10-01'
 # venue: 'Proceedings of the AAAI Conference on Artificial Intelligence (2026)'

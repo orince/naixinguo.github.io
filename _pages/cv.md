@@ -1,8 +1,12 @@
 ---
-layout: cv
+layout: archive
+title: "CV"
 permalink: /cv/
-title: CV
-nav: true
-nav_order: 4
-cv_pdf: CV_Resume.pdf
+author_profile: true
+redirect_from:
+  - /resume
 ---
+
+{% include base_path %}
+
+You can find my CV here: [Naixin GUO's Curriculum Vitae](../assets/CV_Resume.pdf).

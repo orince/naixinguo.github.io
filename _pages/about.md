@@ -12,7 +12,7 @@ I am currently pursuing a PhD in the Department of Decision Analytics and Operat
 
 My research lies at the intersection of empirical asset pricing, textual analysis, and machine learning, with a particular focus on how news and other unstructured information are incorporated into financial markets.
 
-**Curriculum Vitae**: Curriculum Vitae: [CV](../assets/CV_GUONaixin.pdf)
+**Curriculum Vitae**: [CV](../assets/CV_Resume.pdf)
 
-**Contact Info**:<naixinguo2-c@my.cityu.edu.hk>
+**Contact Info**: <naixinguo2-c@my.cityu.edu.hk>
 
