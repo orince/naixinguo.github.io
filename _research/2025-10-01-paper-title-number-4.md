@@ -1,6 +1,6 @@
 ---
 title: "Cross-Market News Sentiment and Trading Volume"
-collection: research
+collection: researchs
 category: working_paper
 permalink: /research/2025-10-01-paper-title-number-4
 #excerpt: ''
